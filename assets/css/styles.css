@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+        min-height: 100vh;
+        width: 100%;
+        background-image: url("/home/moringa/Documents/AgriPlus/assets/images/image 1.png");
+        background-position: center;
+        background-size: cover;
+        position: relative;
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.logo{
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+}
+.nav-links{
+    text-align: center;
+    flex: 1;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: white;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ED661F;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.page-one{
+    width: 80%;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    margin-left: 60px;
+
+}
+.page1-btn{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border:1px solid black;
+    margin-top: 30px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.page-btn:hover{
+    border: 1px solid #ED661F;
+    background: #ED661F;
+    transition: 1s;
+} 
+h1{
+    
+}
