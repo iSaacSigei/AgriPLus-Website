@@ -81,22 +81,25 @@ nav{
     margin: auto;
 }
 .page-one{
+    margin-top: 8px;
     display: flex;
     justify-content: space-between;
     width: 80%;
 }
-.page-one-text > h1{
-        font-weight: 700;
+
+.column > h1{
+        font-weight: 600;
         font-size: 36px;
-        margin-top: 60px;
-        margin-left: 15%;
+        margin-top: 100px;
+        margin-left: 20%;
+       
     
 }
-.page-one-text > p{
+.column > p{
     margin-top: 10px;
     margin-left: 15%;
     font-weight: 270;
-}
+} */
 .page-btn{
     display: inline-block;
     text-decoration: none;
@@ -127,15 +130,19 @@ nav{
     padding: 8px 12px;
     position: relative;
 }
-
-.img1 > img{
+#cover-image{
+    width: 700px;
+    height: 300px; 
+    margin-top: 100px;
+}
+/* .img1 > img{
     width: inherit;
     height: inherit;
 }
 .img1{
     width: 550px;
     height: 400px; 
-}
+} */
 /* page2-advert section-why we exist */
 .page2{
     display: flex;
@@ -160,8 +167,8 @@ nav{
     height: inherit;
 }
 .img2{
-    width: 550px;
-    height: 400px;
+    width: 600px;
+    height: 450px;
 }
 /* -- Products category section-- */
 .popular-products{
@@ -172,7 +179,7 @@ nav{
 }
 #tag-title{
     text-align: left;
-    font-family: 600;
+    font-size: 600;
 }
 /* #underlined{
     text-decoration: underline solid #ED661F;
@@ -201,6 +208,7 @@ nav{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+
 #image1{
     width: 270px;
     height: 270px;
@@ -243,24 +251,25 @@ nav{
     height: 270px;
 }
 /* Customer rating section */
+
+.customer-rating{
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+   
+}
 .customer-rating > h1{
     font-size: 600;
-    margin-left: 10%;
     margin-top: 15px ;
-}
-.customer-data-section{
-    margin-top: 8px;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
+    margin-bottom: 20px;
+    text-align: left;
 }
 .customer-rating-section{
-    margin-top: 8px;
+    /* align-items: center; */
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: auto;
 }
 .column2{
     margin-bottom: 10px;
@@ -271,5 +280,24 @@ nav{
 .column2 > p{
     text-align: center;
     font-size: 300;
+    padding: 20;
 
+
+}
+.column2 img{
+    height: auto;
+
+}
+.column > h2{
+    text-align: right;
+}
+.client{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.client > h2{
+    font-size: 200;
+    margin-top: 20px;
 }
