@@ -201,6 +201,9 @@ nav{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+#price-tag{
+    font-size: bold;
+}
 #image1{
     width: 270px;
     height: 270px;
