@@ -79,10 +79,11 @@ nav{
 .page-one{
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
 .page-one-text > h1{
         font-weight: 700;
-        font-size: 26px;
+        font-size: 36px;
         margin-top: 60px;
         margin-left: 15%;
     
@@ -90,7 +91,7 @@ nav{
 .page-one-text > p{
     margin-top: 10px;
     margin-left: 15%;
-    font-weight: 100;
+    font-weight: 270;
 }
 .page-btn{
     display: inline-block;
@@ -133,7 +134,7 @@ nav{
 .img1{
     width: 550px;
     height: 400px;
-    margin-right: 15%;
+    
 }
 /* page2-advert section-why we exist */
 .page2{
@@ -150,7 +151,7 @@ nav{
 }
 .u{
     text-decoration: underline solid #ED661F;
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
     
 }
 .page2-text > p {
@@ -161,13 +162,63 @@ nav{
 .img2 > img{
     width: inherit;
     height: inherit;
-    flex: right;
 }
 .img2{
     width: 550px;
     height: 400px;
 }
-.product-category{
+/* -- Products category section-- */
+.popular-products{
+    width: 80%;
+    margin: auto;
     text-align: center;
-    margin-bottom: 20px;
+    padding-top: 50px;
+}
+#tag-title{
+    text-align: left;
+    font-family: 600;
+}
+/* #underlined{
+    text-decoration: underline solid #ED661F;
+    text-underline-offset: 2px; 
+    text-align: left; */
+
+.product-category > h1{
+  font-weight: 600;
+  font-size: 36px;
+}
+.product-on-sale{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.column{
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+#image1{
+    width: 270px;
+    height: 270px;
+}
+#image2{
+    width: 270px;
+    height: 270px;
+}
+#image3{
+    width: 270px;
+    height: 270px;
+}
+#image4{
+    width: 270px;
+    height: 270px;
+}
+
+.product-category > p{ 
+    font-size: 16px;
+    font-weight: 300px;
+    padding: 8px;
 }
