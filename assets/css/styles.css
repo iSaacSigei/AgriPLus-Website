@@ -239,3 +239,9 @@ nav{
     height: 270px;
 }
 /* Customer rating section */
+.customer-rating{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
