@@ -4,9 +4,9 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-        min-height: 100vh;
         width: 100%;
-        
+
+        /* Navigation bar section  */
 }
 nav{
     align-items: center;
@@ -20,7 +20,7 @@ nav{
     text-align: left;
     margin-left: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 .nav-links{
     text-align: center;
@@ -55,7 +55,7 @@ nav{
     margin-right: 70px;
 }
 .getButton {
-    padding: 15px;
+    padding: 12px;
     border: none;
     background-color:#ED661F;
     font-size: 16px;
@@ -69,24 +69,21 @@ nav{
 
 /* page-one-text section */
 
-.page1{
-    display: flex;
-}
 .cover-page{
-    background-image:url("/assets/images/image\ 1.png");
+    background-image:url("/home/moringa/Documents/AgriPlus/assets/images/image 1.png");
     background-position: center;
     background-size: cover;
     position: relative;
-
 }
-
-
+.page-one{
+    display: flex;
+    justify-content: space-between;
+}
 .page-one-text > h1{
         font-weight: 700;
-        font-size: 30px;
+        font-size: 26px;
         margin-top: 50px;
         margin-left: 10%;
-
 }
 .page-one-text > p{
     margin-top: 10px;
@@ -110,11 +107,13 @@ nav{
     background: #fff;
     transition: 1s;
 }
-.customer-data{
-    float: center baseline;
-    padding-top: 100px;
-    border: 1.5px solid rgb(243, 233, 233);
-    margin-right: 20%;;
+.customer-data-section{
+    width: 80%;
+    margin: 100px auto 0;
+    background-color: #fff;
+    
+
+
 
 }
 .customer-data ul li{
@@ -138,6 +137,9 @@ nav{
 .page2{
     display: flex;
     width: 80%;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 .img2 > img{
@@ -148,4 +150,8 @@ nav{
 .img2{
     width: 550px;
     height: 400px;
+}
+.product-category{
+    text-align: center;
+    margin-bottom: 20px;
 }
