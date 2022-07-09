@@ -122,19 +122,15 @@ nav{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
-   
-
 }
 
 .img1 > img{
     width: inherit;
     height: inherit;
-
 }
 .img1{
     width: 550px;
-    height: 400px;
-    
+    height: 400px; 
 }
 /* page2-advert section-why we exist */
 .page2{
@@ -143,22 +139,18 @@ nav{
     margin-top: 80px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 .page2-text > h1{
     font-size: 400;
-
 }
 .u{
     text-decoration: underline solid #ED661F;
     text-underline-offset: 3px;
-    
 }
 .page2-text > p {
     font-size: 100;
     padding-top: 15px;
 }
-
 .img2 > img{
     width: inherit;
     height: inherit;
@@ -193,6 +185,11 @@ nav{
     justify-content: space-between;
     width: 90%;
 }
+.product-category > p{ 
+    font-size: 16px;
+    font-weight: 300px;
+    padding: 8px;
+}
 .column{
     align-items: center;
     border-radius: 5px;
@@ -216,9 +213,29 @@ nav{
     width: 270px;
     height: 270px;
 }
-
-.product-category > p{ 
-    font-size: 16px;
-    font-weight: 300px;
-    padding: 8px;
+.newest-item{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
+#newset{
+    text-align: left;
+}
+#image5{
+    width: 270px;
+    height: 270px;
+}
+#image6{
+    width: 270px;
+    height: 270px;
+}
+#image7{
+    width: 270px;
+    height: 270px;
+}
+#image8{
+    width: 270px;
+    height: 270px;
+}
+/* Customer rating section */
