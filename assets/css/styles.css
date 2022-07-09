@@ -4,10 +4,12 @@
     font-family: 'Poppins', sans-serif;
 }
 .container{
-        width: 100%;
+        width: 80%;
+        margin: auto;
 
-        /* Navigation bar section  */
+        
 }
+/* Navigation bar section  */
 nav{
     align-items: center;
     display: flex;
@@ -70,11 +72,13 @@ nav{
 /* page-one-text section */
 
 .cover-page{
-    height: 100vh;
-    background-image:url("/assets/images/image\ 1.png");
+    width: 90%;
+    background-image:url("/assets/images/image 1.png");
     background-position: center;
     background-size: cover;
     position: relative;
+    height: 100vh;
+    margin: auto;
 }
 .page-one{
     display: flex;
@@ -239,9 +243,33 @@ nav{
     height: 270px;
 }
 /* Customer rating section */
-.customer-rating{
+.customer-rating > h1{
+    font-size: 600;
+    margin-left: 10%;
+    margin-top: 15px ;
+}
+.customer-data-section{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.customer-rating-section{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
     width: 80%;
-    margin: auto;
-    padding-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.column2{
+    margin-bottom: 10px;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+} 
+.column2 > p{
     text-align: center;
+    font-size: 300;
+
 }
