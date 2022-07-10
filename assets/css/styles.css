@@ -385,17 +385,19 @@ nav{
     color: white;
     font-weight: 300;
     font-size: 36px;
-    margin-left: 18px;
+    padding-left: 18px;
 }
 .company-logo > p{
     color: #fff;
     font-size: 16px;
     font-weight: 100;
-    margin-left: 18px;
+    padding-left: 18px;
 }
 .company-footer> h1{
     color: #fff;
     font-weight: 200;
+    padding-top: 16px;
+    padding-bottom: 10px;
     font-size: 26px;
 }
 /* .company-footer> p{
@@ -407,8 +409,18 @@ nav{
 .company-footer ul li{
     list-style: none;
     color: #fff;
+    padding: 4px 4px 4px 4px;
+:
 }
 .company-footer ul li a{
     text-decoration: none;
     color: #fff;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+    /* font-weight: 100; */
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
