@@ -130,12 +130,10 @@ font-size: 25px;
  
 /* /* .body-section */
 .container{
-    max-width: 80%
-    background-color: #fafafa;
+    width: 80%
+    margin:auto
 
-    
 }
-
 .column > h1{
         font-weight: 600;
         font-size: 40px;
@@ -203,6 +201,8 @@ font-size: 25px;
 .popular-products{
     margin: auto;
     padding-top: 50px;
+    width: 90%;
+    margin-right: 20%;
     
 }
 #tag-title{
@@ -222,7 +222,7 @@ font-size: 25px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 80% 
+    width: 80%;
 }
 .product-category > p{ 
     font-size: 16px;
