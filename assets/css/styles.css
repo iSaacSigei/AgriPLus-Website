@@ -374,22 +374,41 @@ nav{
     margin: auto;
     margin-bottom: 20px;
 }
-.column3{
+.row3{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 10%;
+    margin-top: 16px;
 }
-.company-logo > h1{
-    color: #fff;
+.company-logo >h1{
+    color: white;
     font-weight: 300;
     font-size: 36px;
-    margin-left: 20px;
-
+    margin-left: 18px;
 }
 .company-logo > p{
     color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 18px;
+}
+.company-footer> h1{
+    color: #fff;
+    font-weight: 200;
+    font-size: 26px;
+}
+/* .company-footer> p{
+    color: #fff;
     font-weight: 100px;
     font-size: 15px;
-    margin-left: 20px;
+    
+} */
+.company-footer ul li{
+    list-style: none;
+    color: #fff;
+}
+.company-footer ul li a{
+    text-decoration: none;
+    color: #fff;
 }
