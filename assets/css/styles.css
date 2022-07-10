@@ -208,6 +208,10 @@ nav{
     padding: 20px 12px;
     box-sizing: border-box;
 }
+.product-on-sale > h2 {
+    text-align: center;
+    font-size: 100;
+}
 
 #image1{
     width: 270px;
@@ -274,30 +278,34 @@ nav{
 .column2{
     margin-bottom: 10px;
     background: #fff3f3;
-    padding: 25px;
+    padding: 40px;
     cursor: pointer;
+    margin-top: 80px;
+
 } 
 .column2 > p{
     text-align: center;
     font-size: 300;
     padding: 20;
-
-
 }
-.column2 img{
+/* .column2 img{
     height: auto;
 
-}
+} */
 .column > h2{
     text-align: right;
 }
-.client{
+/* .client{
     display: flex;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-between; */
 
-}
+/* 
 .client > h2{
     font-size: 200;
     margin-top: 20px;
+} */
+.column2 .fa{
+    color: #ED661F;
+
 }
