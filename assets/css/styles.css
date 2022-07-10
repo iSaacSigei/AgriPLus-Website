@@ -309,3 +309,61 @@ nav{
     color: #ED661F;
 
 }
+/* footer-contact section */
+/* subscribe-section */
+.subscribe-section{
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.subscribe-header > h1{
+    color: #fff;
+    font-size: 30;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.subscribe-header > p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.search{
+    width: 200px;
+    margin-left: 28%;
+    text-align: center;
+    display: flex;
+}
+.srch{
+    width: 300px;
+    height: 45px;
+    background: #fff;
+    border: 1px solid #fff3f3;
+    /* margin-top: 10px; */
+    font-size: 18px;
+    /* float: left; */
+    border-right: 0;
+    
+    
+}
+.sub-btn{
+    width: 200px;
+    height: 46px;
+    background: #ED661F;
+    border: 2px solid #ED661F;
+    /* border-bottom: 2px solid #ED661F; */
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+.sub-btn:hover{
+    box-shadow: #a6b7c56b 6px 15px 16px 0px;
+
+}
