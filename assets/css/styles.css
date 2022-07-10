@@ -215,7 +215,8 @@ font-size: 25px;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-right: 0%; 
+    /* width: 90% */
+    /* margin-right: 0%;  */
     
 }
 .product-category > p{ 
@@ -269,9 +270,10 @@ font-size: 25px;
 .newest-item{
     margin-top: 8px;
     display: flex;
+    /* width: 90%; */
     justify-content: space-between;
     margin: auto;
-    margin-right: 0%;
+    /* margin-right: 0%; */
 }
 #newest{
     text-align: left;
@@ -351,9 +353,13 @@ font-size: 25px;
 
 } 
 .column2 > p{
-    text-align: center;
-    font-size: 300;
+    text-align:unset;
+    font-size: 23px;
     padding: 20;
+}
+#i{
+width: 10px;
+height: 10px;
 }
 
 .column > h2{
