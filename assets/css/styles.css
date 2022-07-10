@@ -273,9 +273,9 @@ font-size: 25px;
     margin: auto;
     margin-right: 0%;
 }
-#newset{
+#newest{
     text-align: left;
-    margin-top: 13px;
+    margin-top: 20px;
     margin-bottom: 18px;
 }
 #image5{
@@ -336,17 +336,18 @@ font-size: 25px;
     justify-content: space-between;
     margin: auto;
 }
-.client{
-border-radius: 8px;
+.client  img{
+    border-radius: 6px;
 }
 
 .column2{
+    width: 20%;
     margin-bottom: 10px;
     background: #fff3f3;
     padding: 40px;
     cursor: pointer;
     margin-top: 80px;
-    box-shadow: #979393;
+    
 
 } 
 .column2 > p{
