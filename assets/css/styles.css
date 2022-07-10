@@ -361,9 +361,35 @@ nav{
     font-size: 22px;
     color: #fff;
     margin-bottom: 50px;
+    cursor: pointer;
 
 }
 .sub-btn:hover{
     box-shadow: #a6b7c56b 6px 15px 16px 0px;
 
+}
+.footer-contact{
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.column3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.company-logo > h1{
+    color: #fff;
+    font-weight: 300;
+    font-size: 36px;
+    margin-left: 20px;
+
+}
+.company-logo > p{
+    color: #fff;
+    font-weight: 100px;
+    font-size: 15px;
+    margin-left: 20px;
 }
