@@ -129,11 +129,10 @@ font-size: 25px;
  }
  
 /* /* .body-section */
-.container{
-    width: 80%
-    margin:auto;
-
-}
+/* .container{
+    width: 80%;
+    ma
+} */
 .column > h1{
         font-weight: 600;
         font-size: 40px;
@@ -208,7 +207,7 @@ font-size: 25px;
 #tag-title{
     text-align: left;
     font-weight: 600;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-bottom: 14px;
 }
 
@@ -223,6 +222,7 @@ font-size: 25px;
     justify-content: space-between;
     margin: auto;
     width: 80%;
+    margin-left: 15%;
 }
 .product-category > p{ 
     font-size: 16px;
@@ -269,6 +269,7 @@ font-size: 25px;
     width: 80%;
     margin: auto;
     justify-content: space-between;
+    margin-left: 15%;
     
     
 }
@@ -276,7 +277,7 @@ font-size: 25px;
     text-align: left;
     font-weight: 600;
     margin: auto;
-    margin-left: 10%; 
+    margin-left: 15%; 
     margin-top: 20px;
     margin-bottom: 18px;
 
