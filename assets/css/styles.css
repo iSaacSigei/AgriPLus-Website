@@ -78,21 +78,21 @@ nav{
     margin: auto;
     display: flex;
     justify-content:space-around;
-    margin-top: 8px;
-    /* align-items: center; */
+    margin-bottom: 50px;
+    align-items: center;
 }
 #cover-image{
-     float: right; 
+    float: right; 
     height: 400px;
     width: 550px;
-    margin-top: 60px;
-    margin-bottom: 50px;
+    margin-top: 20%
+
 }
 .col > h1{
     font-weight: 500;
     font-size: 36px;
     margin-top: 100px;
-    margin: auto;
+    margin-top: 20%;
     padding-left: 20%;
     padding-top: 20%;
 
@@ -105,7 +105,7 @@ font-weight: 300;
 font-size: 25px;
 } 
 .customer-data-section{
-    align-self: baseline;
+    clear: left;
     float: right;
     border: 1px solid rgb(230, 227, 227);
     background: white;
@@ -115,11 +115,15 @@ font-size: 25px;
  .inner-container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-top: 50px;
     padding-left: 15px;
     padding-right: 16px;
+    cursor: pointer;
 
+ }
+ .inner-container::after{
+    box-shadow: 2px 2px rgb(190, 190, 190);
  }
  .customer-data ul li{
      list-style: none;
@@ -128,11 +132,6 @@ font-size: 25px;
      
  }
  
-/* /* .body-section */
-/* .container{
-    width: 80%;
-    ma
-} */
 .column > h1{
         font-weight: 600;
         font-size: 40px;
@@ -170,29 +169,32 @@ font-size: 25px;
     display: flex;
     width: 80%;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 100px;
     margin: auto;
+    margin-bottom: 100px;
+    align-self: center;
     /* margin-left: 10%;
     margin-right: 10%; */
 }
 .page2-text > h1{
-    font-size: 400;
+    font-size: 500;
+    margin-top: 15%;
 }
 .u{
     text-decoration: 5px underline solid #ED661F;
 }
 .page2-text > p {
-    font-weight: 200;
+    font-weight: 300;
     padding-top: 15px;
-    font-size: 18px;
+    font-size: 22px;
 }
 .img2 > img{
     width: inherit;
     height: inherit;
 }
 .img2{
-    width: 400px;
-    height: 300px;
+    width: 800px;
+    height: 600px;
     /* margin-right: 25%; */
 }
 /* ========================================= */
